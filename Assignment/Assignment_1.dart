@@ -50,9 +50,9 @@ class CourseListScreen extends StatelessWidget {
         child: GridView.builder(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
-            crossAxisSpacing: 12,
-            mainAxisSpacing: 12,
-            childAspectRatio: 0.75,
+            crossAxisSpacing: 10,
+            mainAxisSpacing: 10,
+            childAspectRatio: 0.71,
           ),
           itemCount: courses.length,
           itemBuilder: (context, index) {
@@ -177,4 +177,5 @@ class CourseCard extends StatelessWidget {
       ),
     );
   }
+
 }
